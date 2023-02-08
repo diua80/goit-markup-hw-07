@@ -1,0 +1,88 @@
+@media screen and (max-width: 1199px) {
+  .solution-icon-container {
+    display: none;
+  }
+  .services{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .site-authorization {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .site-authorization a {
+    font-size: 16px;
+  }
+
+  .header-tel {
+    font-size: 16px;
+  }
+
+  .header-mail {
+    font-size: 16px;
+  }
+  .container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+  .solution-item {
+    width: 264px;
+  }
+  .solution-subtitle {
+    font-size: 20px;
+  }
+  .team{
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .hero{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgb(46, 47, 66, 0.7)),
+    url(../images/people-office-desktop@1x.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.hero{
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+),
+url(../images/people-office-desktop@2x.jpg);
+}
+}
+
+.footer-left-box{
+  align-items: flex-start;
+  margin-right: 120px;
+  }
+.footer-box{
+  display: flex; 
+  padding-right: 0;
+  padding-left: 0;   
+}
+
+.footer-form-wrapper-left{
+  gap: 0;
+}
+.footer-form-wrapper{
+
+}
+.social-list-footer{
+  gap: 16px;
+}
+
+.social-media-box{
+  margin-right: 80px;
+}
+
+}
