@@ -62,31 +62,30 @@
             <use href="./images/sprite.svg#icon-close-black"></use>
           </svg>
         </button>
-<div class="mobile-menu-site-wrapper">
-  <ul class="mobile-menu-site-navigation list">
-    <li class="header-item">
-      <a class="link header-link current" href="./index.html">Studio</a>
-    </li>
-    <li class="header-item">
-      <a class="link header-link" href="./portfolio.html">Portfolio</a>
-    </li>
-    <li class="header-item">
-      <a class="link header-link" href="">Contacts</a>
-    </li>
-  </ul>
-  <ul class="menu-mobile-site-authorization list">
-    <li class="header-item">
-      <a class="link header-tel" href="tel:+110001111111"
-        >+11 (000) 111-11-11</a
-      >
-    </li>
-    <li class="header-item">
-      <a class="link header-mail" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-    </li>
-  </ul>
-</div>
+        <ul class="mobile-menu-site-navigation list">
+          <li class="header-item">
+            <a class="link header-link current" href="./index.html">Studio</a>
+          </li>
+          <li class="header-item">
+            <a class="link header-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="header-item">
+            <a class="link header-link" href="">Contacts</a>
+          </li>
+        </ul>
+        <ul class="menu-mobile-site-authorization list">
+          <li class="header-item">
+            <a class="link header-tel" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="header-item">
+            <a class="link header-mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+
         <ul class="mobile-menu-social-list list">
           <li class="mobile-menu-social-list-item">
             <a href="" class="mobile-menu-social-list-link">
@@ -495,15 +494,15 @@
             <label for="user-email" >
               <input type="email" name="user-email" class="footer-form-subscribe-input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="E-mail">
             </label>
-            </div>
             <button class="footer-form-subscribe-btn" type="submit">
-              <p>Subscribe</p>
+              <span>Subscribe</span>
               <svg class="footer-form-subscribe-btn-icon" width="24" height="24">
                 <use href="./images/sprite.svg#icon-subscribe"></use>
               </svg>
               
             </button>
-            </form>
+          </form>
+            </div> 
           </div>
         </div>
       </div>
@@ -567,8 +566,8 @@
            placeholder="Text input"
            ></textarea>
           </label>
-          <input type="checkbox" id="user-policy" class="modal-form-check visually-hidden">
-          <label for="user-policy" name="user-policy" class="modal-form-check-desc">
+          <input type="checkbox" name="user-policy" class="modal-form-check visually-hidden"/>
+          <label for="user-policy" class="modal-form-check-desc">
             I accept the terms and conditions of the&nbsp;&nbsp;<a href="#">Privacy Policy</a>
           </label>
           <button type="submit" class="modal-form-submit">Send</button>

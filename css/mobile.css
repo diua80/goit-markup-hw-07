@@ -104,10 +104,6 @@ url(../images/people-office-mobile@2x.jpg);
 }
 
 .hero-title {
-  /* width: 696px; */
-  /* font-size: 56px; */
-  /* line-height: 1.07; */
-  /* text-align: center; */
   width: 319px;
   font-size: 36px;
   line-height: 1.11;
@@ -213,11 +209,10 @@ url(../images/people-office-mobile@2x.jpg);
   .header-link:focus {
   color: var(--portfolio-tlo-hover-btn);
 }
-  .mobile-menu-site-wrapper{
+
+  .mobile-menu{
     display: flex;
     flex-direction: column;
-    height: 588px;
-    justify-content: space-between;
   }
 
   .mobile-menu-social-list-link {
@@ -232,7 +227,7 @@ url(../images/people-office-mobile@2x.jpg);
   }
 
   .menu-mobile-site-authorization{
-    margin-bottom: 48px;
+  margin-top: auto;
   }
 
   .mobile-menu-social-list{
@@ -766,7 +761,7 @@ ol {
   letter-spacing: 0.02em;
   color: var(--footer-text);
   margin-top: 16px;
-  margin-bottom: 72px;
+  
 }
 
 .footer-logo:hover,
@@ -774,15 +769,12 @@ ol {
   color: var(--active-color);
 }
 
-/* .footer-box {
-  display: flex;
-} */
 
 .social-media-box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 72px;
+ 
 }
 .footer-form-title {
   font-weight: 500;
@@ -791,6 +783,7 @@ ol {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer-form-subscribe-input {
@@ -864,10 +857,9 @@ ol {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width: 300px; */
-  /* margin-right: 120px; */
-  /* margin-left: 0; */
+  margin-bottom: 72px;
 }
+
 
 .social-media-title {
   font-weight: 500;
@@ -1008,6 +1000,9 @@ ol {
 .contact-form {
   display: flex;
   flex-direction: column;
+}
+.footer-form-wrapper-left{
+  margin-bottom: 72px;
 }
 
 .footer-form-wrapper{
